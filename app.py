@@ -1,3 +1,4 @@
+import streamlit as st
 from flask import Flask, request, jsonify
 from joblib import load
 import pandas as pd
